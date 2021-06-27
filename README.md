@@ -20,3 +20,12 @@ You will also need a kernel that supports the new firmware. I opted for linux-oe
 6. If you still have no sound, check whether you used the right kernel with `uname -r`. If you did, consider opening an [issue](https://github.com/stukev/XPS-17-9700-Ubuntu-Soundfix/issues) in this git repo and maybe we can solve it together.
 
 Future updates from Ubuntu may break this fix. But you can always run it again if that happens.
+
+CLSIO - 
+
+This worked for me but I needed to adjust to use linux-image-5.6.0-1056-oem
+
+After fix restart and select the 5.6 linux kernel
+then apt purge all the other kernels other than the 5.6 version. 
+
+feel free to message me! 
